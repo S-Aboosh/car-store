@@ -1,0 +1,64 @@
+:root {
+
+}
+
+body {
+    background-color: #956f6f;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 3em;
+}
+
+.car_store {
+    padding: 1em;
+    max-width: 190px;
+    margin: auto;
+    min-height: 300px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+.car_store > div {
+    margin: auto;
+}
+
+.company_sec {
+    margin: 50px auto;
+    max-width: 400px;
+    height: 85px;
+    padding: 1em;
+    background-color: #ececec;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .company_sec > span, */
+.company_sec > .company {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+/* .icon {
+    width: 12px;
+    height: 12px;
+} */
+
+.icon > img {
+    width: 51px;
+    height: 34px;
+}
+
+.company span {
+    width: 100%;
+}
